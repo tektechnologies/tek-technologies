@@ -22,13 +22,13 @@ console.log("Hi Harrison, love you!!!")
     <section className="hero">
         <div className="hero-content">
             <h1>Precision Cultivation Through IoT</h1>
-            <p>Advanced sensor networks and data analytics for pharmaceutical-grade cannabis production. Monitor, optimize, and scale with confidence.</p>
+            <p>Advanced sensor networks and data analytics for IoT management. Monitor, optimize, and scale with confidence.</p>
             <a href="#" className="cta-button">Request Demo</a>
         </div>
     </section>
 
     <section className="features">
-        <h2 className="section-title">Enterprise Cannabis Solutions</h2>
+        <h2 className="section-title">Enterprise Iot Solutions</h2>
         <div className="feature-grid">
             <div className="feature-card">
                 <div className="feature-icon">📊</div>
@@ -43,7 +43,7 @@ console.log("Hi Harrison, love you!!!")
             <div className="feature-card">
                 <div className="feature-icon">⚡</div>
                 <h3>Predictive Analytics</h3>
-                <p>Machine learning models identify issues before they impact yield. Optimize growth cycles and resource allocation.</p>
+                <p>Machine learning models identify issues before they impact yield. Optimize building cycles and resource allocation.</p>
             </div>
         </div>
     </section>
@@ -52,7 +52,7 @@ console.log("Hi Harrison, love you!!!")
         <div className="stats-container">
             <div className="stat-item">
                 <h4>32%</h4>
-                <p>Average Yield Increase</p>
+                <p>Average Cost Decreases</p>
             </div>
             <div className="stat-item">
                 <h4>99.9%</h4>
@@ -60,7 +60,7 @@ console.log("Hi Harrison, love you!!!")
             </div>
             <div className="stat-item">
                 <h4>50+</h4>
-                <p>Licensed Facilities</p>
+                <p>Licensed Facilitators</p>
             </div>
             <div className="stat-item">
                 <h4>24/7</h4>
@@ -71,7 +71,7 @@ console.log("Hi Harrison, love you!!!")
 
     <section className="cta-section">
         <h2>Ready to Optimize Your Operation?</h2>
-        <p>Join leading cultivators using IoT technology to maximize quality and efficiency.</p>
+        <p>Join leading companies using IoT technology to maximize quality and efficiency.</p>
         <a href="#" className="cta-button">Schedule Consultation</a>
     </section>
 
@@ -80,9 +80,9 @@ console.log("Hi Harrison, love you!!!")
             <div className="footer-section">
                 <h4>Products</h4>
                 <ul>
-                    <li><a href="#">Sensor Systems</a></li>
-                    <li><a href="#">Analytics Platform</a></li>
-                    <li><a href="#">Compliance Tools</a></li>
+                    <li><a href="#">Video Systems</a></li>
+                    <li><a href="#">Internet of Things Devices</a></li>
+                    <li><a href="#">Internet Services in select markets</a></li>
                 </ul>
             </div>
             <div className="footer-section">
@@ -103,7 +103,7 @@ console.log("Hi Harrison, love you!!!")
             </div>
         </div>
         <div className="footer-bottom">
-            <p>&copy; 2025 GrowTech. All rights reserved.</p>
+            <p>&copy; 2025 TEK Technologies IoT. All rights reserved.</p>
         </div>
     </footer>
 </body>
