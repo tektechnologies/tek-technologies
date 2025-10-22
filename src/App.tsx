@@ -1,17 +1,15 @@
 import "./theme/index.css";
-import Header from "./components/nav/header";
-import Main from "./components/main/main";
-import Footer from "./components/footer/footer";
+import Header from "./components/nav/Header";
+import Main from "./components/main/MainSection";
+import Footer from "./components/footer/Footer";
 import "./theme/index.css";
 
 function App() {
   return (
     <>
-      <body>
         <Header />
         <Main />
         <Footer />
-      </body>
     </>
   );
 }
