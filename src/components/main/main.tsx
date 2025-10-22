@@ -5,7 +5,7 @@ const Main: React.FC = () => {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Precision Control of Your Business Through IoT</h1>
+          <h1>Precision Control of Your IoT Operations</h1>
           <p>
             Advanced sensor networks and data analytics for IoT management.
             Monitor, optimize, and scale with confidence.
@@ -23,7 +23,7 @@ const Main: React.FC = () => {
             <div className="feature-icon">📊</div>
             <h3>Real-Time Monitoring</h3>
             <p>
-              Track environmental conditions, nutrient levels, and plant health
+              Track environmental conditions, access levels, and video views.
               metrics 24/7 with our distributed sensor network.
             </p>
           </div>
@@ -31,8 +31,7 @@ const Main: React.FC = () => {
             <div className="feature-icon">🔬</div>
             <h3>Compliance Ready</h3>
             <p>
-              Automated tracking and reporting for regulatory requirements. Full
-              audit trails and batch traceability.
+              Automated tracking and reporting for regulatory requirements. Full audit trails and traceability.
             </p>
           </div>
           <div className="feature-card">
@@ -57,7 +56,7 @@ const Main: React.FC = () => {
             <p>System Uptime</p>
           </div>
           <div className="stat-item">
-            <h4>50+</h4>
+            <h4>20+ Years of Experience</h4>
             <p>Licensed Facilitators</p>
           </div>
           <div className="stat-item">
@@ -70,8 +69,7 @@ const Main: React.FC = () => {
       <section className="cta-section">
         <h2>Ready to Optimize Your Operation?</h2>
         <p>
-          Join leading companies using IoT technology to maximize quality and
-          efficiency.
+          Join leading companies using IoT technology to maximize quality and efficiency.
         </p>
         <a href="#" className="cta-button">
           Schedule Consultation
