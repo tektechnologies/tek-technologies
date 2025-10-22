@@ -21,7 +21,7 @@ console.log("Hi Harrison, love you!!!")
 
     <section className="hero">
         <div className="hero-content">
-            <h1>Precision Cultivation Through IoT</h1>
+            <h1>Precision Control of Your Business Through IoT</h1>
             <p>Advanced sensor networks and data analytics for IoT management. Monitor, optimize, and scale with confidence.</p>
             <a href="#" className="cta-button">Request Demo</a>
         </div>
