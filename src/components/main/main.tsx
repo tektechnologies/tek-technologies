@@ -56,7 +56,7 @@ const Main: React.FC = () => {
             <p>System Uptime</p>
           </div>
           <div className="stat-item">
-            <h4>20+ Years of Experience</h4>
+            <h4>2+</h4>
             <p>Licensed Facilitators</p>
           </div>
           <div className="stat-item">
