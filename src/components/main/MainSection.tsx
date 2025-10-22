@@ -17,7 +17,7 @@ const Main: React.FC = () => {
       </section>
 
       <section className="features">
-        <h2 className="section-title">Enterprise Iot Solutions</h2>
+        <h2 className="section-title">Enterprise IoT Solutions</h2>
         <div className="feature-grid">
           <div className="feature-card">
             <div className="feature-icon">📊</div>
