@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "@tanstack/react-router";
 
 const Header: React.FC = () => {
   return (
     <header>
       <nav>
-        <div className="logo play-regular">TEK Technologies</div>
+        <div className="logo play-regular">
+          <Link to="/">TEK Technologies</Link>
+        </div>
         <ul className="nav-links">
           <li>
             <a href="#solutions">Solutions</a>
@@ -13,7 +16,9 @@ const Header: React.FC = () => {
             <a href="#technology">Technology</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/about" className="[&.active]:font-bold">
+              About
+            </Link>
           </li>
           <li>
             <a href="#contact">Contact</a>
