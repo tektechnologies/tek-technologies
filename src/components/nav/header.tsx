@@ -5,8 +5,10 @@ const Header: React.FC = () => {
   return (
     <header>
       <nav>
-        <div className="logo play-regular">
-          <Link to="/">TEK Technologies</Link>
+        <div className="logo">
+          <Link to="/" className="play-regular">
+            TEK Technologies
+          </Link>
         </div>
         <ul className="nav-links">
           <li>

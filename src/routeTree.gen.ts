@@ -16,12 +16,12 @@ import { Route as AboutRoute } from "./routes/about";
 
 // Create/Update Routes
 
-const AboutRoute = AboutRoute.update({
+const AboutRouteUpdate = AboutRoute.update({
   path: "/about",
   getParentRoute: () => rootRoute,
 } as any);
 
-const IndexRoute = IndexRoute.update({
+const IndexRouteUpdate = IndexRoute.update({
   path: "/",
   getParentRoute: () => rootRoute,
 } as any);
@@ -34,14 +34,14 @@ declare module "@tanstack/react-router" {
       id: "/";
       path: "/";
       fullPath: "/";
-      preLoaderRoute: typeof IndexRoute;
+      preLoaderRoute: typeof IndexRouteUpdate;
       parentRoute: typeof rootRoute;
     };
     "/about": {
       id: "/about";
       path: "/about";
       fullPath: "/about";
-      preLoaderRoute: typeof AboutRoute;
+      preLoaderRoute: typeof AboutRouteUpdate;
       parentRoute: typeof rootRoute;
     };
   }
@@ -50,8 +50,8 @@ declare module "@tanstack/react-router" {
 // Create and export the route tree
 
 export const routeTree = rootRoute.addChildren({
-  IndexRoute,
-  AboutRoute,
+  IndexRouteUpdate,
+  AboutRouteUpdate,
 });
 
 /* prettier-ignore-end */
