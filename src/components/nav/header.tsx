@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <nav>
-        <div className="logo">TEK Technologies</div>
+        <div className="logo play-regular">TEK Technologies</div>
         <ul className="nav-links">
           <li>
             <a href="#solutions">Solutions</a>
