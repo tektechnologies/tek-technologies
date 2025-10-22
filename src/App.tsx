@@ -9,7 +9,6 @@ function App() {
     <>
       <body>
         <Header />
-
         <Main />
         <Footer />
       </body>
