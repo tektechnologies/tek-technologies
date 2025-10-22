@@ -2,6 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
+    <>
     <footer>
       <div className="footer-content">
         <div className="footer-section">
@@ -48,9 +49,10 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2025 TEK Technologies. All rights reserved.</p>
+        <p>&copy; 2025 TEK Technologies IoT. All rights reserved.</p>
       </div>
     </footer>
+    </>
   );
 };
 

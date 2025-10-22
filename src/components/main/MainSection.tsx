@@ -11,7 +11,7 @@ const Main: React.FC = () => {
             Monitor, optimize, and scale with confidence.
           </p>
           <a href="#" className="cta-button">
-            Request Demo
+            Find Out More
           </a>
         </div>
       </section>
