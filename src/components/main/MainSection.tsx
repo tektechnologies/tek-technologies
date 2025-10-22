@@ -5,7 +5,7 @@ const Main: React.FC = () => {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Precision Control of Your IoT Operations</h1>
+          <h1>Smart Control. Seamless Operations.</h1>
           <p>
             Advanced sensor networks and data analytics for IoT management.
             Monitor, optimize, and scale with confidence.
