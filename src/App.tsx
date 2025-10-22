@@ -1,28 +1,12 @@
 import "./theme/index.css";
+import Header from "./components/nav/header";
+import "./theme/index.css";
 
 function App() {
   return (
     <>
       <body>
-        <header>
-          <nav>
-            <div className="logo">TEK Technologies IoT</div>
-            <ul className="nav-links">
-              <li>
-                <a href="#solutions">Solutions</a>
-              </li>
-              <li>
-                <a href="#technology">Technology</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+        <Header />
 
         <section className="hero">
           <div className="hero-content">
