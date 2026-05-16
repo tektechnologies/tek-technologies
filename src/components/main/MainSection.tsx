@@ -5,9 +5,9 @@ const Main: React.FC = () => {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Smart Control. Seamless Operations.</h1>
+          <h1>Smart Controls. Seamless Operations.</h1>
           <p>
-            Advanced sensor networks and data analytics for IoT management.
+            Advanced networks and data analytics for IoT management.
             Monitor, optimize, and scale with confidence.
           </p>
           <a href="#" className="cta-button">
@@ -17,29 +17,28 @@ const Main: React.FC = () => {
       </section>
 
       <section className="features">
-        <h2 className="section-title">Enterprise IoT Solutions</h2>
+        <h2 className="section-title">Technology Solutions</h2>
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="feature-icon">📊</div>
-            <h3>Real-Time Monitoring</h3>
+            {/* <div className="feature-icon">📊</div> */}
+            <h3>IoT Devices</h3>
             <p>
               Track environmental conditions, access levels, and video views.
               metrics 24/7 with our distributed sensor network.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">🔬</div>
-            <h3>Compliance Ready</h3>
+            {/* <div className="feature-icon">🔬</div> */}
+            <h3>Security Cameras</h3>
             <p>
               Automated tracking and reporting for regulatory requirements. Full audit trails and traceability.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">⚡</div>
-            <h3>Predictive Analytics</h3>
+            {/* <div className="feature-icon">⚡</div> */}
+            <h3>Software Development</h3>
             <p>
-              Machine learning models identify issues before they impact yield.
-              Optimize building cycles and resource allocation.
+              We design and develop software solutions to meet your business needs. We are a team of experienced developers who are dedicated to providing the best possible software solutions to our clients.
             </p>
           </div>
         </div>
